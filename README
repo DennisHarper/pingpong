@@ -1,0 +1,9 @@
+This is an example app that shows a simple ping pong between a client and a server using ssl.
+
+The make this work:
+1. Put the location of your ssl private key and cert in the server.js file
+2. Put your server name in the index.html file.
+3. Run ```
+npm i
+node ./server.js
+```
